@@ -38,6 +38,7 @@
       add: todosLocal[i].add,
       done: false,
     };
+    console.log('bug fix');
   };
   const handleRemove = (/** @type {number} */ i) => {
     todosLocal = [...todosLocal.slice(0, i), ...todosLocal.slice(i + 1)];
