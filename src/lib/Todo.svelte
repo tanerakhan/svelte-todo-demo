@@ -44,6 +44,7 @@
   };
 
   $: todos = todosLocal;
+  console.log('test')
 </script>
 
 <div class="h-screen overflow-hidden flex items-center justify-center">
