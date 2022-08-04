@@ -40,12 +40,10 @@
     };
   };
   const handleRemove = (/** @type {number} */ i) => {
-    console.log('second');
     todosLocal = [...todosLocal.slice(0, i), ...todosLocal.slice(i + 1)];
   };
 
   $: todos = todosLocal;
-  console.log('test')
 </script>
 
 <div class="h-screen overflow-hidden flex items-center justify-center">
