@@ -40,6 +40,7 @@
     };
   };
   const handleRemove = (/** @type {number} */ i) => {
+    console.log('second');
     todosLocal = [...todosLocal.slice(0, i), ...todosLocal.slice(i + 1)];
   };
 
